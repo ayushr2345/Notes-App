@@ -1,0 +1,44 @@
+.note {
+    background-color: #feff9c;
+    color: black; 
+    position: relative;
+    height: 10em;
+    padding: 1em;
+    width: 10em;
+    margin: 1em;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-6deg);
+    z-index: 1;
+    transition: all ease 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.note:nth-child(even) {
+    transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+    background-color: #7afcff;
+}
+
+.note:nth-child(3n) {
+    transform: rotate(-3deg);
+    position: relative;
+    top: -5px;
+    background-color: #ff7eb9;
+}
+
+.note:hover {
+    transform: scale(1.5);
+    z-index: 5;
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+
+.note__text {
+    flex: 1;
+}
+
+.note__link {
+    display: none;
+}
