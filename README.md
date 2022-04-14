@@ -2,6 +2,7 @@
  - This web app lets any user do CRUD (create, read, update and delete) operations on any of the notes published on the web-app
  - The app doesn't require any authentication so it is advisable not to store secrets in the app
  - The app was made in a process of learning the MERN stack and creating a promary project
+ - The Frontend is made with ReactJS and is hosted on Github pages
 
 ## Features
 ### Read the existing notes by yourself and other users
